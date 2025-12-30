@@ -12,8 +12,17 @@ load_dotenv()
 
 app = FastAPI(title="Shreyas Website API", version="1.0.0")
 
-# CORS configuration
-CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:5173,http://localhost:3000").split(",")
+# CORS configuration - Allow Amplify domains and localhost for development
+CORS_ORIGINS_ENV = os.getenv("CORS_ORIGINS", "")
+if CORS_ORIGINS_ENV:
+    CORS_ORIGINS = [origin.strip() for origin in CORS_ORIGINS_ENV.split(",")]
+else:
+    # Default: allow localhost for development
+    # In production, set CORS_ORIGINS environment variable with your frontend URL
+    CORS_ORIGINS = [
+        "http://localhost:5173",
+        "http://localhost:3000",
+    ]
 
 app.add_middleware(
     CORSMiddleware,
