@@ -70,7 +70,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a href="#blog" className="nav-link" onClick={(e) => handleSmoothScroll(e, '#blog')}>
-              Blog
+              My Projects
             </a>
           </li>
           <li className="nav-item">
