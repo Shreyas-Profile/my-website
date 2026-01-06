@@ -55,7 +55,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a href="#achievements" className="nav-link" onClick={(e) => handleSmoothScroll(e, '#achievements')}>
-              Achievements
+              Qualifications
             </a>
           </li>
           <li className="nav-item">
@@ -70,7 +70,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a href="#blog" className="nav-link" onClick={(e) => handleSmoothScroll(e, '#blog')}>
-              Blog
+              Achievements
             </a>
           </li>
           <li className="nav-item">
