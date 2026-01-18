@@ -18,6 +18,12 @@ const Social = () => {
       text: 'Hugging Face',
       className: 'huggingface',
     },
+    {
+      href: 'https://www.linkedin.com/in/shreyas-pavuluri-27980bb5/',
+      icon: 'fab fa-linkedin',
+      text: 'LinkedIn Profile',
+      className: 'linkedin',
+    },
   ];
 
   return (

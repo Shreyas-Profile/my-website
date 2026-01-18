@@ -812,6 +812,10 @@ section {
     color: #ff6b35;
 }
 
+.social-link.linkedin {
+    color: #0077b5;
+}
+
 .social-link i {
     font-size: 1.5rem;
 }
