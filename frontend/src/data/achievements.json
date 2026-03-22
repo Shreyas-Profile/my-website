@@ -16,5 +16,14 @@
     "technologies": [],
     "date": "",
     "link": ""
+  },
+  {
+    "id": 3,
+    "title": "Dad's Work",
+    "description": "My dad is working",
+    "image": "/projects//projects/dad_working.jpg",
+    "technologies": [],
+    "date": "",
+    "link": ""
   }
 ]
