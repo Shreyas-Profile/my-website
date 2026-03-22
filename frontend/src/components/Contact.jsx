@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import contactData from '../data/contact.json';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -48,16 +49,16 @@ const Contact = () => {
         <h2 className="section-title">Get In Touch</h2>
         <div className="contact-content">
           <div className="contact-info">
-            <h3>Let's Connect!</h3>
-            <p>I'm always interested in new opportunities, collaborations, and conversations about technology.</p>
+            <h3>{contactData.heading}</h3>
+            <p>{contactData.description}</p>
             <div className="contact-methods">
               <div className="contact-method">
                 <i className="fas fa-envelope"></i>
-                <span>shreyas.pavuluri@gmail.com</span>
+                <span>{contactData.email}</span>
               </div>
               <div className="contact-method">
                 <i className="fas fa-map-marker-alt"></i>
-                <span>Glasgow, United Kingdom</span>
+                <span>{contactData.location}</span>
               </div>
             </div>
           </div>
@@ -106,4 +107,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

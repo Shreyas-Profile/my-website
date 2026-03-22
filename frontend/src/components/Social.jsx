@@ -1,31 +1,6 @@
-const Social = () => {
-  const socialLinks = [
-    {
-      href: 'https://www.youtube.com/@CentralCanvas-qn8jx',
-      icon: 'fab fa-youtube',
-      text: 'YouTube Channel',
-      className: 'youtube',
-    },
-    {
-      href: 'https://github.com/Pakki6/Shreyas',
-      icon: 'fab fa-github',
-      text: 'GitHub Profile',
-      className: 'github',
-    },
-    {
-      href: 'https://huggingface.co/Baobab123',
-      icon: 'fas fa-robot',
-      text: 'Hugging Face',
-      className: 'huggingface',
-    },
-    {
-      href: 'https://www.linkedin.com/in/shreyas-pavuluri-27980bb5/',
-      icon: 'fab fa-linkedin',
-      text: 'LinkedIn Profile',
-      className: 'linkedin',
-    },
-  ];
+import socialLinks from '../data/social.json';
 
+const Social = () => {
   return (
     <section id="social" className="social">
       <div className="container">
@@ -50,4 +25,3 @@ const Social = () => {
 };
 
 export default Social;
-

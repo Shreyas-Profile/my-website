@@ -1,0 +1,20 @@
+{
+  "intro": "Traveling has always been an important part of my life, helping me gain new perspectives and experiences.",
+  "items": [
+    {
+      "icon": "fas fa-map-marker-alt",
+      "title": "Places I've Visited",
+      "description": "Iceland and Turkey"
+    },
+    {
+      "icon": "fas fa-plane",
+      "title": "Dream Destinations",
+      "description": "USA, Italy and Spain"
+    },
+    {
+      "icon": "fas fa-camera",
+      "title": "Travel Experiences",
+      "description": "Memorable moments from my journeys"
+    }
+  ]
+}

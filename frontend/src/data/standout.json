@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "fas fa-lightbulb",
+    "title": "Young Perspective",
+    "description": "Being 14 years old gives me a unique, fresh perspective on technology and problem-solving"
+  },
+  {
+    "icon": "fas fa-rocket",
+    "title": "Rapid Learning",
+    "description": "I have a natural ability to quickly grasp new concepts and technologies"
+  },
+  {
+    "icon": "fas fa-users",
+    "title": "Community Focus",
+    "description": "I believe in sharing knowledge and contributing to the developer community"
+  },
+  {
+    "icon": "fas fa-brain",
+    "title": "Innovative Thinking",
+    "description": "I approach problems with creativity and look for unique solutions"
+  }
+]

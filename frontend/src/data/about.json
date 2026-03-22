@@ -1,0 +1,12 @@
+{
+  "paragraphs": [
+    "I'm a 14-year-old student with a passion for technology and programming. Currently learning web development, AI, and exploring various programming languages.",
+    "When I'm not coding, you can find me exploring new technologies, working on personal projects, or learning about the latest developments in AI and software engineering.",
+    "I believe in continuous learning and love sharing my journey through my YouTube channel and open-source contributions."
+  ],
+  "stats": [
+    { "value": "14", "label": "Years Old" },
+    { "value": "3+", "label": "Programming Languages" },
+    { "value": "10+", "label": "Projects Completed" }
+  ]
+}

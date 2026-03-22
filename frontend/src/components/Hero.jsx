@@ -1,3 +1,5 @@
+import heroData from '../data/hero.json';
+
 const Hero = () => {
   const handleSmoothScroll = (e, targetId) => {
     e.preventDefault();
@@ -15,11 +17,11 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Hi, I'm <span className="highlight">Shreyas P</span>
+            Hi, I'm <span className="highlight">{heroData.name}</span>
           </h1>
-          <p className="hero-subtitle">Young Developer & Student</p>
+          <p className="hero-subtitle">{heroData.subtitle}</p>
           <p className="hero-description">
-            Passionate about coding and AI, learning, and building amazing things
+            {heroData.description}
           </p>
           <div className="hero-buttons">
             <a href="#about" className="btn btn-primary" onClick={(e) => handleSmoothScroll(e, '#about')}>
@@ -41,4 +43,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
