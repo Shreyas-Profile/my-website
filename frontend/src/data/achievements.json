@@ -7,5 +7,14 @@
     "technologies": [],
     "date": "2024-12-15",
     "link": ""
+  },
+  {
+    "id": 2,
+    "title": "My Dad is Working",
+    "description": "This photo shows my dad at work.",
+    "image": "/projects/dad_working.jpg",
+    "technologies": [],
+    "date": "",
+    "link": ""
   }
 ]
