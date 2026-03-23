@@ -25,5 +25,14 @@
     "technologies": [],
     "date": "",
     "link": ""
+  },
+  {
+    "id": 4,
+    "title": "New Achievement",
+    "description": "New photo achievement",
+    "image": "/projects//projects/new_achievement_photo.jpg",
+    "technologies": [],
+    "date": "",
+    "link": ""
   }
 ]
